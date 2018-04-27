@@ -15,6 +15,7 @@ public class GT4500 implements SpaceShip {
     this.secondaryTorpedoStore = new TorpedoStore(10);
   }
 
+//lézert lő ki
   public boolean fireLaser(FiringMode firingMode) {
     if(firingMode!=null)
 	return true;
@@ -76,7 +77,7 @@ public class GT4500 implements SpaceShip {
         }
     }
 
-      else{
+    else{
         // try to fire both of the torpedo stores
         //TODO implement feature
     }
